@@ -4,4 +4,4 @@ var imagePreview = function() {
 			alert('clicked');
 		});
 	});
-}
+}();

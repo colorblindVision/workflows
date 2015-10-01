@@ -1,0 +1,10 @@
+- Install GIT, Node.js, and Ruby
+
+- Use Node.js command prompt
+	- Install gulp npm install -g gulp
+	- Create package.json file with details about the project (npm init)
+	
+- Use Ruby to install sass and compass
+	- gem install sass
+	- gem install compass
+	
