@@ -1,4 +1,8 @@
 @import "http://fonts.googleapis.com/css?family=Patua+One|Inika";
-h1 { color: "#3E2B3D"; }
+body { font-family: "Inika", serif; }
 
-body { background: #f00; }
+h1 { color: #474747; padding: 0 20px; }
+
+ul { margin: 0; padding: 0; }
+
+li { height: 200px; width: 200px; overflow: hidden; border: solid 1px #ccc; margin: 20px; float: left; list-style: none; }

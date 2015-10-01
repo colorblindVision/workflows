@@ -1,2 +1,7 @@
-h1 {color: $purple;}
-body {background: #f00;}
+
+body {font-family: $bodyFont;}
+
+h1 {color: $gray; padding: 0 20px;}
+
+ul {margin: 0; padding: 0;}
+li {height: 200px; width: 200px; overflow: hidden; border: solid 1px #ccc; margin: 20px; float: left; list-style: none;}
