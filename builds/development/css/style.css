@@ -3,6 +3,16 @@ body { font-family: "Inika", serif; }
 
 h1 { color: #474747; padding: 0 20px; }
 
-ul { margin: 0; padding: 0; }
+h2 { padding: 0 20px; }
 
-li { height: 200px; width: 200px; overflow: hidden; border: solid 1px #ccc; margin: 20px; float: left; list-style: none; }
+ul { margin: 0; padding: 20px; }
+
+li { width: 32%; overflow: hidden; margin-right: 2%; float: left; list-style: none; margin-bottom: 20px; opacity: 0.8; }
+
+li:last-child { margin-right: 0; }
+
+li:hover { opacity: 1; }
+
+.full-image { margin: 0 20px; }
+
+.full-image img { max-width: 100%; width: 100%; }

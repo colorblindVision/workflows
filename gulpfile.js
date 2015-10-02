@@ -10,7 +10,7 @@ gulp.task('log', function(){
 });
 
 var coffeeSources = ['components/coffee/tagline.coffee'];
-var jsSources = ['components/scripts/image-preview.js', 'components/scripts/template.js', 'components/scripts/tagline.js'];
+var jsSources = ['components/scripts/tagline.js', 'components/scripts/image-preview.js'];
 var sassSources = ['components/sass/style.scss'];
 
 gulp.task('coffee', function(){
@@ -37,3 +37,5 @@ gulp.task('compass', function(){
 		.on('error', gutil.log))
 		.pipe(gulp.dest('builds/development/css'))
 });
+
+gulp.task('default', ['coffee', 'js', 'compass']);
