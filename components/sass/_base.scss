@@ -1,8 +1,8 @@
 
-body {font-family: $bodyFont;}
+body {font-family: $bodyFont; background: #f2f2f2;}
 
 h1 {color: $gray; padding: 0 20px;}
-h2 {padding: 0 20px;}
+h2 {padding: 0 20px; color: $green;}
 
 ul {margin: 0; padding: 20px;}
 li {width: 32%; overflow: hidden; margin-right: 2%; float: left; list-style: none; margin-bottom: 20px; opacity: 0.8;}

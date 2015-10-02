@@ -1,5 +1,5 @@
 $ = require 'jquery'
 
-do fill = (item = 'This is dynamic content from coffee script') ->
+do fill = (item = 'Dynamic content from Coffee.') ->
 	$('.tagline').append "#{item}"
 fill
