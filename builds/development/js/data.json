@@ -1,19 +1,19 @@
-{ 'dogs' : [
+{ "dogs" : [
 
 	{
-		'name' : 'Leo',
-		'breed' : 'Pomeranian',
-		'color' : 'Cream'
+		"name" : "Leo",
+		"breed" : "Pomeranian",
+		"color" : "Cream"
 	},
 	{
-		'name' : 'Buddy',
-		'breed' : 'Daschund',
-		'color' : 'Brown'
+		"name" : "Buddy",
+		"breed" : "Daschund",
+		"color" : "Brown"
 	},
 	{
-		'name' : 'Dolly',
-		'breed' : 'Daschund',
-		'color' : 'Blonde'
+		"name" : "Dolly",
+		"breed" : "Daschund",
+		"color" : "Blonde"
 	}
 
 ]}

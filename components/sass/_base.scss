@@ -8,5 +8,9 @@ ul {margin: 0; padding: 20px;}
 li {width: 32%; overflow: hidden; margin-right: 2%; float: left; list-style: none; margin-bottom: 20px; opacity: 0.8;}
 li:last-child {margin-right: 0;}
 li:hover {opacity: 1;}
-.full-image {margin: 0 20px;}
+.full-image {margin: 0 20px; margin-bottom: 20px;}
 .full-image img {max-width: 100%; width: 100%;}
+
+#dynamic-data {padding: 20px; line-height: 1.5em;}
+#dynamic-data div {margin-bottom: 20px; margin-left: 20px; padding-left: 20px; border-left: solid 3px $green; color: $gray; float: left;}
+#dynamic-data h3 {font-weight: bold; color: #000;}
